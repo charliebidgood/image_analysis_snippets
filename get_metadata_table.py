@@ -1,5 +1,6 @@
 ''' 
 Extract important metadata and grouping information from image file names in a specified directory
+Inspired by CellProfiler's metadata extraction module (github.com/CellProfiler)
 Use regex101.com (with PCRE2 flavour) to help create a regular expression (example below)
 This function expects the syntax defining a capture group as follows: (?P<group_name>XXX)
 '''
